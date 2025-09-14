@@ -4436,7 +4436,7 @@ ol, ul {
 }
 
 figure, ol, p, ul {
-  margin: 1em 0
+  margin: 3em -170px
 }
 
 a img {
