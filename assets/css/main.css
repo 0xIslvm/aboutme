@@ -2,12 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 html {
+  overflow-x: hidden;
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
 
 body {
+  overflow-x: hidden;
   background: rgb(13, 50, 77);
   background: linear-gradient(180deg, rgba(13, 50, 77, 1) 50%, rgba(40, 60, 68, 1) 100%);
   margin: 0
@@ -4435,9 +4437,10 @@ ol, ul {
   padding-left: 40px
 }
 
-figure, ol, p, ul {
-  margin: 3em -170px
-}
+@media (max-width: 768px) {
+  figure, ol, p, ul {
+    margin: 1.25em 0 !important;  /* no negative margins on mobile */
+  }
 
 a img {
   border: 0
@@ -4486,6 +4489,7 @@ sub, sup {
 }
 
 .header {
+  padding-inline: 16px;
   z-index: 1;
   text-align: center;
   color: #fff;
