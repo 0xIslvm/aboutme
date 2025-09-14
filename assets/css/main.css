@@ -4608,7 +4608,7 @@ sub, sup {
 #about {
   width: 90%;
   margin: 0 auto;
-  max-width: 70%
+  max-width: 960px;
 }
 
 @media only screen and (min-width:550px) {
