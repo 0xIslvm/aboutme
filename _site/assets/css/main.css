@@ -4401,7 +4401,7 @@ summary {
 body {
   padding: 0;
   font-size: 100%;
-  line-height: 1.5;
+  line-height: 1.8;
   color: #fff;
   font-family: 'Montserrat', sans-serif
 }
@@ -4672,7 +4672,7 @@ sub, sup {
 .user-projects img {
   max-width: 100%;
   height: auto;
-  border-radius: 5px
+  border-radius: 16px
 }
 
 .user-projects h5, body {
